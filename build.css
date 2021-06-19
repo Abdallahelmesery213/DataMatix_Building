@@ -1,0 +1,189 @@
+/* start the header */
+@font-face {
+    font-family:'SansArabic';
+    font-weight: 500;
+    src: url("./fonts/Bahij_TheSansArabic-Bold.ttf") 
+         
+}
+@font-face{
+    font-family: "semiLight";
+    font-weight: 600;
+    src: url("./fonts/AubaineMedium-Regular.otf");
+}
+@font-face{
+    font-family: "AubaineNormal";
+    font-weight: 600;
+    src: url("./fonts/AubaineNormal-Regular.otf");
+}
+.building .container{
+    font-family:'SansArabic';
+    border: 4px solid #eee;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.building header{
+    padding: 30px;
+}
+header .left{
+    margin-right: -20px;
+    margin-top: 27px;
+    font-family: "semiLight";
+}
+header .right {
+    margin-left: -81px;
+    margin-top: 27px;
+    font-family:'SansArabic';
+}
+
+header .second-row h5{
+    font-size: 17px;
+}
+header .second-row .left {
+    margin-right: 14px;
+    margin-top: 1px;
+}
+header .second-row .left h5{
+    margin-right: -32px;
+}
+header .second-row .right {
+    margin-left: -125px;
+    margin-top: 0px;
+}
+header .theDate{
+    font-family: "AubaineNormal";
+    margin-bottom: -17px;
+    margin-top: 5px;
+    margin-left: -54px;
+}
+@media only screen and (max-width: 1200px) {
+    header .right{
+        margin-top: 34px;
+        margin-left: -48px;
+    }
+    header .left{
+        margin-right: -21px;
+        margin-top: 40px;
+    }
+    header .second-row .right {
+        margin-left: -105px;
+        margin-top: 0px;
+    }
+    header .second-row .left h5{
+        margin-right: -41px;
+    }
+    header h3{
+        font-size: 22px;
+    }
+    header .h5{
+        font-size: 15px;
+        margin-top: 25px;
+    }   
+    header .theDate{
+        margin-left: -40px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    header .right{
+        margin-left: -35px;
+        margin-top: 28px;
+    }
+    header .left{
+        margin-right: -22px;
+        margin-top: 28px;
+    }
+    header h3 {
+      font-size: 16px;
+    }
+    header h5{
+        font-size: 12px;
+    }
+    header .second-row .right {
+        margin-left: -84px;
+        margin-top: 0px;
+    }
+    header .second-row .left h5{
+        margin-right: -26px;
+    }
+    header .theDate{
+        margin-left: -15px;
+        margin-top: 30px;
+    }
+    
+  }
+  @media only screen and (max-width: 770px) {
+    header h3 {
+        text-align: center;
+    }
+    header .right h3{
+        margin-bottom: 25px;
+    margin-top: 0;
+    margin-left: 53px;
+    }
+    
+    header .second-row h5{
+        font-size: 15px;
+        font-size: 15px;
+        margin-left: 49px;
+        margin-top: -24px;
+    }
+    header .second-row .left h5{
+        margin-right: -26px;
+        margin-top: 10px;
+        
+    }
+    header .theDate{
+        margin-left: -2px;
+        margin-top: 15px;
+        margin-bottom: -5px;
+    }
+    header .image{
+    text-align: center;
+    }
+    footer .connect {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+/* end the header */
+
+/* start the banner */
+.banner img{
+    width: 97%;
+}
+/* end the banner */
+
+/* start the footer */
+.building footer{
+    margin-top: 15px;
+}
+footer h6 {
+    font-size: 19px;
+    cursor: pointer;
+}
+footer h6 a {
+    color: black;
+    font-size: 19px;
+}
+footer h6 a:hover{
+    color: #cf4023;
+    text-decoration: underline;
+}
+footer ul li a{
+    cursor: pointer;
+}
+footer .image{
+    width: 220px;
+    height: 79px;
+}
+footer .btn {
+    background-color: #cf4023;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/* end the footer */
